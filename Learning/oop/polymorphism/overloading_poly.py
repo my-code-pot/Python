@@ -1,7 +1,7 @@
 class Human:
     def say_hello(self, name=None):
         if name is not None:
-            print(f"Hello {name}")
+            print("")
 
         else:
             print("Hello! What is your name?")

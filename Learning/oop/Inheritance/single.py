@@ -7,7 +7,7 @@ class Fruit:
     def __init__(self):
         global x
         x += 1
-        print(f"I am a fruit")
+        print('I am a fruit')
 
 
 class Orange(Fruit):

@@ -13,10 +13,7 @@ print(even_num)
 
 name_list = ['Zack', 'Jack', 'Nathan', 'Tim', 'Shaker']
 def names(name):
-    if name in name_list:
-        return True
-    else:
-        return False
+    return name in name_list
 
 name_list2 = ['Jack', 'Zack', 'Monica', 'Soondar', 'shaker']
 filtered_name = list(filter(names, name_list2))

@@ -14,8 +14,7 @@ args = parser.parse_args()
 
 
 def pyramid_volume(length, height, width):
-    volume = (length * height * width) / 3
-    return volume
+    return (length * height * width) / 3
 
 
 if args.verbose:
